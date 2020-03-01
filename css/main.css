@@ -1,0 +1,14 @@
+html {
+  font-family: sans-serif;
+}
+
+.carousel-items > div {
+  display: none;
+}
+
+#arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium,
+#elasmotherium-control:checked ~ .carousel-inner #elasmotherium,
+#glyptodon-control:checked ~ .carousel-inner #glyptodon,
+#megatherium-control:checked ~ .carousel-inner #megatherium {
+  display: block;
+}
